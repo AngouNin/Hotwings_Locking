@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+hotwings_locking = "FuML3MpeXtoKgZY1nBJUCJyvtQZdBcSt2Kb7GjqGW8SR"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/home/bigstar/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
